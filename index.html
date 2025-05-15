@@ -1,40 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quote Generator</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quote Generator</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="container">
+    <h1>Quote of the Day</h1>
+    
     <div class="quote-box">
-        <h2>Quote of the day</h2>
-        <blockquote id="quote">Loading...</blockquote>
-        <span id="author">Loading...</span>
-        <div>
-            <button onclick="getquote(api_url)">New Quote</button>
-            <button onclick="tweet()"><img src="tweet.png">Tweet</button>
-        </div>
+      <p id="quote">Loading...</p>
+      <span id="author">Loading...</span>
+    </div>
+    
+    <div class="buttons">
+      <button id="toggle-theme">🌙 Dark Mode</button>
+      <button id="new-quote">New Quote</button>
+      <button id="copy-quote">Copy</button>
+      <button id="tweet-quote">
+        <img src="assets/tweet.png" alt="Tweet" />
+        Tweet
+      </button>
     </div>
 
-<script>
-const quote=document.getElementById("quote")
-const author=document.getElementById("author")
-const api_url= "https://thequoteshub.com/api/random-quote";
+    <div id="loader" class="hidden">Loading...</div>
+  </div>
 
-async function getquote(url) {
-    const response =await fetch(url);
-    var data = await response.json();
-    quote.innerHTML=data.content;
-    author.innerHTML=data.author;
-}
-
-getquote(api_url);
-
-function tweet(){
-    window.open("https://twitter.com/intent/tweet?text=" + quote.innerHTML + " --- by " + author.innerHTML, "Tween window", "width=600, height=300");
-}
-
-</script>
+  <script src="script.js"></script>
 </body>
 </html>
