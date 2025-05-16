@@ -2,7 +2,7 @@
 
 Welcome to **CurioQuotes**, a beautifully crafted and minimal quote generator web app built by [Swarnim Shrestha](https://swarnimstha.com.np). This app displays a random quote every time you visit or click “New Quote” – designed to uplift, inspire, and motivate!
 
-🌐 Live Demo: [CurioQuotes on GitHub Pages](https://sthaswarnim17.github.io/CurioQuotes/)
+🌐 Live Demo: [CurioQuotes](https://sthaswarnim17.github.io/CurioQuotes/)
 
 ---
 
