@@ -1,92 +1,55 @@
-# ✨ CurioQuotes - Quote Generator Web App
+# ✨ CurioQuotes - Quote Generator
 
-Welcome to **CurioQuotes** — a clean, minimalistic quote generator built with HTML, CSS, and JavaScript. It fetches random inspirational quotes from the [DummyJSON Quotes API](https://dummyjson.com/quotes/random) and displays them beautifully. Whether you're looking for motivation, creativity, or a smile — this app has something for everyone.
+Welcome to **CurioQuotes**, a beautifully crafted and minimal quote generator web app built by [Swarnim Shrestha](https://swarnimstha.com.np). This app displays a random quote every time you visit or click “New Quote” – designed to uplift, inspire, and motivate!
 
-🔗 **Live Demo:**  
-👉 [https://sthaswarnim17.github.io/CurioQuotes//])
-
----
-
-## 🚀 Features
-
-- ✅ Fetches a new random quote on button click
-- 🧑 Displays author name and quote text clearly
-- 🐦 Share directly on Twitter
-- 📋 Copy quote to clipboard with a click
-- 💡 Smooth fade-in animation when loading quotes
-- 🌗 Light/Dark mode toggle (optional future upgrade)
-- ⚡ Simple and responsive UI
-- 🔒 No login required — free and fast
+🌐 Live Demo: [CurioQuotes on GitHub Pages](https://sthaswarnim17.github.io/CurioQuotes/)
 
 ---
 
-## 📸 Preview
+## 📌 Features
 
-![Screenshot](https://i.postimg.cc/8z92DJWz/Capture.png)
-
----
-
-## 🛠️ Tech Stack
-
-- **HTML5**
-- **CSS3**
-- **Vanilla JavaScript**
-- **[DummyJSON Quotes API](https://dummyjson.com/quotes/random)**
-- **Hosted on GitHub Pages**
+- 🎯 Fetches random quotes using [DummyJSON API](https://dummyjson.com/quotes/random)
+- ⚡ Fast & responsive UI with **loading spinner**
+- 🌗 **Light/Dark Mode** support (CSS adaptable)
+- ✍️ Click to **copy** quotes to clipboard
+- 🐦 One-click **Tweet** functionality
+- 📱 Fully **responsive** on all devices
+- 🧠 Polished user experience with fade-in effects
+- 🔗 Logo with redirect to personal website
+- 🖼️ Custom **favicon** added
 
 ---
 
-## 🧪 How to Use
+## 🚀 Tech Stack
 
-1. Visit the [Live Site](https://sthaswarnim17.github.io/CurioQuotes/)
-2. Click the **"New Quote"** button to load a fresh quote
-3. Use the **"Copy"** button to copy the quote
-4. Use the **"Tweet"** button to share it instantly
-
----
-
-## 📁 Project Structure
-
-├── index.html # Main HTML structure
-├── style.css # Styles for layout and UI
-├── script.js # JS logic for API fetching & interactivity
-└── assets/
-└── tweet.png # Twitter logo icon
-
+- **HTML5**  
+- **CSS3** (custom styling + animations)  
+- **Vanilla JavaScript** (no frameworks)
+- **DummyJSON API** for quotes
+- **GitHub Pages** for deployment
 
 ---
 
-## 📌 Upcoming Enhancements (Optional Ideas)
+## 🖼️ Screenshot
 
-- 🌙 Light/Dark mode toggle
-- ❤️ Save favorite quotes with localStorage
-- 🕘 Quote history / reload previous quotes
-- 🎨 Better mobile responsiveness
+![CurioQuotes Preview](https://i.postimg.cc/CKxX60fC/Capture.png)
 
 ---
 
-## 🤝 Contributing
+## 🛠️ How to Run Locally
 
-Have a cool feature in mind or want to improve something? Fork this repo and raise a pull request. Contributions are welcome!
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/sthaswarnim17/CurioQuotes.git
+2. Open index.html in your browser
 
----
+🙋‍♂️ Author
+Created by Swarnim Shrestha
+🌐 [Swarnim Shrestha](https://swarnimstha.com.np)
 
-## 📄 License
-
-This project is open-source and free to use under the [MIT License](LICENSE).
-
----
-
-## 🙌 Acknowledgments
-
-- Quote API: [DummyJSON](https://dummyjson.com/)
-- Twitter Intent API
-- Everyone learning and building in public 💻
+📄 License
+This project is open-source and free to use.
 
 ---
 
-## 👨‍💻 Made by
-
-**Swarnim Shrestha**  
-📍 Khwopa College of Engineering  
-🌐Portfolio: https://www.swarnimstha.com.np/
+Let me know if you’d like a section added for **contributing**, **credits** or **upcoming features**!
