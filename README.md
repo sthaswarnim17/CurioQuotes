@@ -32,7 +32,7 @@ Welcome to **CurioQuotes**, a beautifully crafted and minimal quote generator we
 
 ## 🖼️ Screenshot
 
-![CurioQuotes Preview](https://i.postimg.cc/CKxX60fC/Capture.png)
+![CurioQuotes Preview](https://i.postimg.cc/fLNtNMYF/Capture.png)
 
 ---
 
