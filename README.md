@@ -44,8 +44,7 @@ Welcome to **CurioQuotes**, a beautifully crafted and minimal quote generator we
 2. Open index.html in your browser
 
 🙋‍♂️ Author
-Created by Swarnim Shrestha
-🌐 [Swarnim Shrestha](https://swarnimstha.com.np)
+Created by [Swarnim Shrestha](https://swarnimstha.com.np)
 
 📄 License
 This project is open-source and free to use.
