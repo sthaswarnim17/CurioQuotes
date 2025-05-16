@@ -26,6 +26,10 @@ body {
   text-align: center;
   z-index: 1000;
   animation: float 3s ease-in-out infinite;
+  margin: 20px auto;
+  padding: 0 10px;
+  max-width: 100%;
+  word-wrap: break-word;
 }
 
 .logo h1 {
@@ -36,6 +40,11 @@ body {
   line-height: 1.5;
   color: var(--text-color);
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  color: var(--text-color); /* should adapt to dark/light mode */
+  line-height: 1.4;
+  word-break: break-word;
+  text-wrap: balance;
 }
 
 .logo .byline {
@@ -188,6 +197,12 @@ button:disabled {
   button {
     padding: 10px 15px;
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo h1 {
+    font-size: 1.4rem;
   }
 }
 
