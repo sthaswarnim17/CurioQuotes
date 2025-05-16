@@ -52,3 +52,8 @@ This project is open-source and free to use.
 ---
 
 Let me know if you’d like a section added for **contributing**, **credits** or **upcoming features**!
+
+📌 Versioning & Updates
+This project follows basic semantic versioning principles (e.g., v1.0.0) for major improvements or changes. While there's no separate CHANGELOG.md file yet, all key updates and releases are tracked under the GitHub Releases section.
+
+Stay tuned for feature additions and enhancements!
