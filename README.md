@@ -3,7 +3,7 @@
 Welcome to **CurioQuotes** — a clean, minimalistic quote generator built with HTML, CSS, and JavaScript. It fetches random inspirational quotes from the [DummyJSON Quotes API](https://dummyjson.com/quotes/random) and displays them beautifully. Whether you're looking for motivation, creativity, or a smile — this app has something for everyone.
 
 🔗 **Live Demo:**  
-👉 [https://sthaswarnim17.github.io/Quote_Generator/](https://sthaswarnim17.github.io/Quote_Generator/)
+👉 [https://sthaswarnim17.github.io/CurioQuotes//])
 
 ---
 
@@ -22,7 +22,7 @@ Welcome to **CurioQuotes** — a clean, minimalistic quote generator built with 
 
 ## 📸 Preview
 
-![App Screenshot](https://i.postimg.cc/9fLLLj85/quotegen.png)
+![Screenshot](https://i.postimg.cc/8z92DJWz/Capture.png)
 
 ---
 
@@ -38,7 +38,7 @@ Welcome to **CurioQuotes** — a clean, minimalistic quote generator built with 
 
 ## 🧪 How to Use
 
-1. Visit the [Live Site](https://sthaswarnim17.github.io/Quote_Generator/)
+1. Visit the [Live Site](https://sthaswarnim17.github.io/CurioQuotes/)
 2. Click the **"New Quote"** button to load a fresh quote
 3. Use the **"Copy"** button to copy the quote
 4. Use the **"Tweet"** button to share it instantly
