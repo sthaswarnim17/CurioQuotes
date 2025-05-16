@@ -17,6 +17,53 @@ body {
   padding: 20px;
 }
 
+/* Logo styling */
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 1000;
+  animation: float 3s ease-in-out infinite;
+}
+
+.logo h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  margin: 0;
+  padding-top: 10px;
+  line-height: 1.5;
+  color: var(--text-color);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.logo .byline {
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+.logo a {
+  color: var(--link-color);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.logo a:hover {
+  text-decoration: underline;
+}
+
+:root {
+  --text-color: #222;         /* For light mode */
+  --link-color: #007acc;
+}
+
+body.dark-mode {
+  --text-color: #f0f0f0;      /* For dark mode */
+  --link-color: #66ccff;
+}
+
 .container {
   background: var(--container-bg);
   padding: 30px 40px;
@@ -164,3 +211,27 @@ body.dark-mode {
   --container-bg: #1e1e1e;
   --box-shadow: 0 8px 24px rgba(0, 0, 0, 0.7);
 }
+
+@keyframes float {
+  0% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-5px);
+  }
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.logo {
+  opacity: 0;
+  animation: fadeIn 1s ease-out 0.3s forwards, float 3s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
